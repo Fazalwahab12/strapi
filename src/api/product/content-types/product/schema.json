@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Product"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "VariantID": {
+      "type": "string"
+    },
+    "VariantName": {
+      "type": "string"
+    },
+    "ProductID": {
+      "type": "string"
+    },
+    "ProductName": {
+      "type": "string"
+    },
+    "ProductSlug": {
+      "type": "string"
+    },
+    "Channels": {
+      "type": "json"
+    }
+  }
+}
